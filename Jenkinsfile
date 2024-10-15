@@ -1,9 +1,9 @@
-@Library('my-shared-library')
+@Library('my_shared_library') _
 pipeline {
     agent any
     stages {
 
-        stage( 'Git_checkout')
+        stage( 'Git checkout')
         {
             
             steps{
