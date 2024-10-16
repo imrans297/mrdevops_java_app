@@ -53,7 +53,7 @@ pipeline {
             {
                 script
                 {
-                    def SonarQubecredentialsId = 'sonar-qube'
+                    def SonarQubecredentialsId = 'Sonar-Qube'                      
                     statiCodeAnalysis(SonarQubecredentialsId)
                 }
             }
